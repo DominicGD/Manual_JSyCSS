@@ -1,0 +1,66 @@
+body{
+   background-color: rgba(129, 62, 0, 0.432); 
+}
+#Hprimero{ 
+    color: rgb(255, 229, 229);
+    border: 0.5rem aqua solid; /*Creas un borde con 5px de grosor, color aqua y de tipo solido*/
+    background-color: rgb(0, 93, 122); /*crea un fondo al texto*/
+    border-radius: 5px; /*Pones un radio con un cortoneo de 5px*/
+    /* border-style: solid;      borde tipo solido
+    border-color: aqua;          color acua
+    border-radius: 5px;          contorneo 5px
+    border-width: 5px;           grosor 5px   */  
+    
+    /*Medidas de tamaños: mm:Milimetros px:Pixeles cm:centimetros em: 2 veces el tamaño de la fuente utilizada 
+    rem: medida respecto al tamaño de la fuente */
+}
+
+div{
+    color: rgb(255, 255, 255); 
+ }
+ p.Texto2{ /*Clases con la etiqueta p se van a seleccionar */
+    color: rgb(17, 147, 151);
+}
+
+* { /*Selecciona todo lo que hay dentro del html */
+    font-family: Impact;
+    color:rgb(0, 0, 0);
+}
+
+#fondo{
+    height: 500px; /*Indica la altura del fondo*/
+    width: 500px;
+    /*background-color: rgb(0, 95, 95);    agrega un fondo
+    opacity: 80%;                            Agrega una opacidad al fondo
+    background-image: url("descarga.jpg");    Agrega una imagen como un fondo
+    background-size: 100px, 100px;          Tipos de tamaño: 
+    background-position: center;           Cambia la posicion de la imagen
+                                          Auto: Muestra la imagen en su tamaño original  Contain: se adapta al tamaño que le demos
+                                       Cover: se adapta a la anchura de la imagen 
+    background-repeat: repeat-y;        Si la imagen se repite elegir que se repita en las coordenas y o x  */
+
+    background: blueviolet url(descarga.jpg) repeat-y right/ 200px 200px; /*Indica el color del fondo, la imagen, repetir en que
+                                                                           coordenada, en que posicion comienza y la medida de la imagen*/
+    border: 0.2rem blueviolet solid;
+    border-radius: 1rem;
+}
+
+th{
+     /* edita lo que esta en la tabla */  
+    border: rgb(19, 11, 0) solid;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+.margen{
+    text-align: center; /*Centra los textos*/
+    background-color:rgb(247, 109, 194);
+    margin: 30px; /*agrega un margen a un texto*/
+    border: solid 1px white; /*Agrega un */
+    padding: 30px,20px,25px,15px solid;  /*Agrega un background mas grande o un espacio mas grande*/
+    /*Alto y ancho del contendo de nuestra etiqueta*/
+    height: 100px;
+    width: 100px; 
+    overflow: scroll; /*Da varias opciones si el texto se sale de un espacio asignado, como ocultar el texto faltante o hacer una scroll*/
+}
+

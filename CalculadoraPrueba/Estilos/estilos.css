@@ -1,0 +1,15 @@
+body{
+  background-color: rgb(0, 255, 195);
+    text-align: center; /*Centra los textos en la pagina web*/
+    font-family: initial; /*Le da un tipo de fuente a la letra*/
+}
+.tblCalculadora{
+  width: 7.5rem;
+  height: auto;
+  background-color: rgba(0, 89, 255, 0.622);
+  border: 0.5rem rgba(17, 37, 255, 0.601) solid;
+  border-radius: 1rem;
+  position: relative; /*declara que la posicion se puede mover de manera exacta*/
+  top: 0px; /*posicionamiento del objeto hacia arriba*/
+  left: 41%;  /*posicionamiento del objeto hacia los lados */
+}

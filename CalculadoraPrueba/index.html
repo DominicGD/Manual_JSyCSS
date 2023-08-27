@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Estilos/estilos.css"> <!--Referencia al css-->
+
+</head>
+
+<body>
+    <h1>Calculadora</h1><br><br>
+
+    <div class="tblCalculadora">
+        <p id="lblResultado">__________</p>
+        <!-- inicia la tabla donde se pondran los botones de la calculadora -->
+        <table>
+            <tr> <!--  tr Esta es la primera fila -->
+                <td><button onclick="ValorDelBotonPulsado(7)" class="btnNumero">7</button></td>
+                <!-- td es cada columna -->
+                <td><button onclick="ValorDelBotonPulsado(8)" class="btnNumero">8</button></td>
+                <td><button onclick="ValorDelBotonPulsado(9)" class="btnNumero">9</button></td>
+                <td><button id="division">/</button></td>
+            </tr>
+            <tr>
+                <!-- (segunda fila) se llama a la funcion de java que guarda el valor del numero precionado -->
+                <td><button onclick="ValorDelBotonPulsado(4)" class="btnNumero">4</button></td>
+                <td><button onclick="ValorDelBotonPulsado(5)" class="btnNumero">5</button></td>
+                <td><button onclick="ValorDelBotonPulsado(6)" class="btnNumero">6</button></td>
+                <td><button id="multiplicar">*</button>
+            </tr>
+            <tr>
+                <td><button onclick="ValorDelBotonPulsado(1)" class="btnNumero">1</button></td>
+                <td><button onclick="ValorDelBotonPulsado(2)" class="btnNumero">2</button></td>
+                <td><button onclick="ValorDelBotonPulsado(3)" class="btnNumero">3</button></td>
+                <td><button id="restar">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="ValorDelBotonPulsado(0)" class="btnNumero">0</button></td>
+                <td><button id="Eliminar">ce</button></td>
+                <td><button id="igualar">=</button></td>
+                <td><button id="sumar">+</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="Programación/Operaciones.js"></script> <!--Referencia al javaScript-->
+
+</body>
+
+</html>

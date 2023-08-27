@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos CSS</title>
+    <link rel="stylesheet" href="Estilos/Estilos.css">
+    <script>
+        var amigos =["Carlos", "Mario", "Luis"]; //creacion de variable array
+        amigos[3] = "Sergio"; //Cambia lo que hay en el espacio 3
+        amigos[amigos.length]="Pancho";//Agrega un elemento al array
+        //document.write("Tus amigos son: " + amigos + " y en total son: " + amigos.length); Escribe lo que hay en la variable amigos y concatena un mensaje
+        //Muestra tambien cuantos amigos son en total.
+        function tabla(n){
+            document.write(amigos[n]);
+        }   
+    </script>
+</head>
+
+<body>
+    <article id="fondo">
+    <div><!--Probando edicion de textos y divs-->
+    <h1 id="Hprimero">Estilos</h1>
+    <p>Este es un parrafo</p>
+    <p>Parrafo 3</p>
+    <p class="Texto2">Texto dos</p>
+    <br><br><br>
+    
+<table> <!--Crea una tabla-->
+    <tr>
+        <th><script>tabla(0);</script></th>
+        <th><script>tabla(1);</script></th>
+    </tr>
+    <tr>
+        <th><script>tabla(2);</script></th>
+        <th><script>tabla(3);</script></th>
+    </tr>
+    </table>
+</div>
+</article>
+
+<!--Prueba de margenes, paddings y borders-->
+<div class="margen">
+    <h2>Pruebas con el margen</h2>
+    </div>
+</body>
+</html>
